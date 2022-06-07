@@ -42,7 +42,7 @@ Heatmap is used to identify the features that are related to target variable and
 
 Modelling 
 
-Random Forest Algorithm gives and accuracy of 86.83%
+Random Forest Algorithm gives an accuracy of 86.83%
 
 Hyperparameter tuning
 
