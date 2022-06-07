@@ -6,7 +6,7 @@ Unsupervised ML has no labelled data. Various unsupervised ML examples include r
 
 The dataset used for cellphone price prediction is mobile_price.csv
 
-##Specification of Cell phone
+Specification of Cell phone - Descrition of variables in dataset
 
 battery_power : Energy stored by battery measured in mAh
 blue : Contains bluetooth, yes or no 
@@ -31,24 +31,24 @@ wifi :	Enabled with wifi signal, yes or no
 price_range : Cellphone price range from 0 to 3 
 
 
-##Defining Variables
+Defining Variables
 
 y <- dependent variable = target variable = price_range 
 x <- independent variable = predictor variable = battery_power, blue, clock_speed, dual_sim, fc, four_g, int_memory, m_dep, mobile_wt, n_cores, pc, px_height, px_width, ram, sc_h, sc_w, talk_time, three_g, touch_screen and wifi. 
 
-##Feature Selection
+Feature Selection
 
 Heatmap is used to identify the features that are related to target variable and the same is plotted using seaborn library. Here, it has been observed that RAM is highly correlated with price range followed by battery_power, pixel width and height 
 
-##Modelling 
+Modelling 
 
 Random Forest Algorithm gives and accuracy of 86.83%
 
-##Hyperparameter tuning
+Hyperparameter tuning
 
 Inorder to get better outcome, hyperparameter tuning is performed. Here, different values are set for random_state to check which value gives maximum accuracy. Here, random_state=10
 
 
-##Model Evaluation
+Model Evaluation
 
 The cellphone price model is evaluated based on accuracy. Here, crosstab has been used. 
