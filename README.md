@@ -1,4 +1,4 @@
-# INTRODUCTION
+# ML Model using Random Forest
 Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed. Machine learning can be categorized into supervised and unsupervised machine learning. 
 Supervised ML Contains labelled data and target. It involves somehow modeling the relationship between measured features of data and some label associated with the data; once this model is determined, it can be used to apply labels to new, unknown data. This is further subdivided into classification tasks and regression tasks: in classification, the labels are discrete categories, while in regression, the labels are continuous quantities. Cellphone price prediction falls under classification task. 
 Supervised ML examples include image classification, house price prediction, weather forecasting etc 
