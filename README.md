@@ -8,32 +8,32 @@ The dataset used for cellphone price prediction is mobile_price.csv
 
 Specification of Cell phone - Description of variables in dataset
 
-battery_power : Energy stored by battery measured in mAh
-blue : Contains bluetooth, yes or no 
-clock_speed :	speed at which microprocessor works 
-dual_sim	: Has dual sim, yes or no 
-fc	: Front Camera mega pixels  
-four_g	: Supports 4G, Yes or no 
-int_memory	: Internal Memory in Gigabytes
-m_dep	: mobile depth in centimeters
-mobile_wt :	mobile weight 
-n_cores	: Number of cores present in processor 
-pc	: Primary camera mega pixels 
-px_height :	Height of the pixel resolution
-px_width : Width of the pixel resolution
-ram	: Capacity of Random Access Memory in Megabytes
-sc_h :	Height of mobile screen in centimeters 
-sc_w :	Width of mobile screen in centimeters 
-talk_time :	Time duration of single battery charge 
-three_g :	Supports 3g signal, yes or no 
-touch_screen :	Supports toch screen, yes or no 
-wifi :	Enabled with wifi signal, yes or no
-price_range : Cellphone price range from 0 to 3 
+battery_power : Energy stored by battery measured in mAh;
+blue : Contains bluetooth, yes or no; 
+clock_speed :	speed at which microprocessor works; 
+dual_sim	: Has dual sim, yes or no; 
+fc	: Front Camera mega pixels;  
+four_g	: Supports 4G, Yes or no; 
+int_memory	: Internal Memory in Gigabytes;
+m_dep	: mobile depth in centimeters;
+mobile_wt :	mobile weight;
+n_cores	: Number of cores present in processor; 
+pc	: Primary camera mega pixels; 
+px_height :	Height of the pixel resolution;
+px_width : Width of the pixel resolution;
+ram	: Capacity of Random Access Memory in Megabytes;
+sc_h :	Height of mobile screen in centimeters; 
+sc_w :	Width of mobile screen in centimeters ;
+talk_time :	Time duration of single battery charge; 
+three_g :	Supports 3g signal, yes or no ;
+touch_screen :	Supports toch screen, yes or no; 
+wifi :	Enabled with wifi signal, yes or no;
+price_range : Cellphone price range from 0 to 3
 
 
 Defining Variables
 
-y <- dependent variable = target variable = price_range 
+y <- dependent variable = target variable = price_range; 
 x <- independent variable = predictor variable = battery_power, blue, clock_speed, dual_sim, fc, four_g, int_memory, m_dep, mobile_wt, n_cores, pc, px_height, px_width, ram, sc_h, sc_w, talk_time, three_g, touch_screen and wifi. 
 
 Feature Selection
