@@ -6,7 +6,7 @@ Unsupervised ML has no labelled data. Various unsupervised ML examples include r
 
 The dataset used for cellphone price prediction is mobile_price.csv
 
-Specification of Cell phone - Descrition of variables in dataset
+Specification of Cell phone - Description of variables in dataset
 
 battery_power : Energy stored by battery measured in mAh
 blue : Contains bluetooth, yes or no 
